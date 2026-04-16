@@ -1,3 +1,9 @@
+import DrivingScrollSequence from "./components/DrivingScrollSequence";
+
 export default function Home() {
-  return <h1>Driving School Website Running 🚗</h1>;
+  return (
+    <main className="w-full overflow-x-clip">
+      <DrivingScrollSequence />
+    </main>
+  );
 }
