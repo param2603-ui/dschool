@@ -4,10 +4,10 @@
   "private": true,
 
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "cd techdriving && npm run dev",
+    "build": "cd techdriving && npm run build",
+    "start": "cd techdriving && npm run start",
+    "lint": "cd techdriving && npm run lint"
   },
 
   "dependencies": {
